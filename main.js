@@ -9,7 +9,7 @@ form.append('attachment', fs.createReadStream('/Users/syedhassanashraf/Desktop/l
 
 const headers = form.getHeaders();
 
-headers.authorization = `pk_3795789_GEEHSYVKLQYOK341LRIZ0JYFAWK8PXBX`;
+headers.authorization = ``;
 
 axios({
   method: 'post',
